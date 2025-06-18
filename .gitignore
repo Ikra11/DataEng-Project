@@ -1,0 +1,25 @@
+# Ignoriere virtuelle Umgebung
+venv/
+
+# Python-Dateien & Caches
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter / Streamlit
+.ipynb_checkpoints/
+*.sqlite
+*.db
+*.log
+
+# Daten
+*.csv
+*.tsv
+*.parquet
+*.xlsx
+
+# OS-spezifisch
+.DS_Store
+
+# Sonstiges
+.env
